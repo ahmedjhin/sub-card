@@ -3,22 +3,27 @@ html {
   --color-grey-400: rgb(134, 134, 134);
   --color-grey-600: rgb(58, 58, 58);
   --color-grey-900: rgb(41, 41, 41);
+
+  --color-primary-300: rgb(167, 226, 225);
+  --color-primary-700: rgb(0, 170, 255);
+  --size-1: 18px;
+  --size-5: 50px;
+
   background-color: var(--color-grey-100);
   font-weight: 400;
   font-family: "kurb", sans-serif;
 }
 
 .card-container {
-  background-color: aliceblue;
-  border-radius: 6px;
-
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 10px rgb(201, 200, 200);
   width: 350px;
-  margin: 150px auto;
+  margin: 50px auto;
 }
 h1 {
   color: var(--color-grey-600);
   text-align: left;
-  padding: 30px 50px 0px 80px;
+  padding: 30px 50px 0px 50px;
   margin: 10px 0;
   font-family: "zilla slab", serif;
   font-weight: 600;
@@ -27,19 +32,42 @@ h1 {
 .card-info {
   color: var(--color-grey-400);
   text-align: left;
-  padding: 0 70px 0px 60px;
+  padding: 0 70px 0px 50px;
   margin: 10px 0 30px 0;
 }
 
 .price {
   color: var(--color-grey-900);
-  margin: 0;
-  font-size: 4rem;
-  text-align: left;
-  background-color: aqua;
-  padding: 0px 0px 0px 120px;
+  background-color: var(--color-primary-300);
+  text-align: center;
+  margin: 30px auto 10px auto;
+  font-size: var(--size-5);
+  font-weight: 600;
 }
 .price-info {
-  padding: 0 50px 0px 50px;
-  margin: 10px 0;
+  color: var(--color-grey-400);
+
+  margin: 10px 0 30px 0;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+.button {
+  color: rgb(0, 170, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inLIne-Block;
+  width: 70%;
+  padding: 10px;
+  margin: 0 0 30px 0;
+  border: 2px solid rgb(224, 224, 224);
+  font-size: var(--size-1);
+  font-weight: 600;
+}
+.button:hover {
+  background-color: aquamarine;
 }
