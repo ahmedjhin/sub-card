@@ -1,0 +1,45 @@
+html {
+  --color-grey-100: rgb(236, 236, 236);
+  --color-grey-400: rgb(134, 134, 134);
+  --color-grey-600: rgb(58, 58, 58);
+  --color-grey-900: rgb(41, 41, 41);
+  background-color: var(--color-grey-100);
+  font-weight: 400;
+  font-family: "kurb", sans-serif;
+}
+
+.card-container {
+  background-color: aliceblue;
+  border-radius: 6px;
+
+  width: 350px;
+  margin: 150px auto;
+}
+h1 {
+  color: var(--color-grey-600);
+  text-align: left;
+  padding: 30px 50px 0px 80px;
+  margin: 10px 0;
+  font-family: "zilla slab", serif;
+  font-weight: 600;
+}
+
+.card-info {
+  color: var(--color-grey-400);
+  text-align: left;
+  padding: 0 70px 0px 60px;
+  margin: 10px 0 30px 0;
+}
+
+.price {
+  color: var(--color-grey-900);
+  margin: 0;
+  font-size: 4rem;
+  text-align: left;
+  background-color: aqua;
+  padding: 0px 0px 0px 120px;
+}
+.price-info {
+  padding: 0 50px 0px 50px;
+  margin: 10px 0;
+}
