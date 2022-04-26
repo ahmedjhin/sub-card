@@ -19,10 +19,12 @@ html {
   box-shadow: 3px 3px 10px rgb(201, 200, 200);
   width: 350px;
   margin: 50px auto;
+  transition: transform 1s ease-out;
 }
 .card-container:hover {
   transform: SCALE(1.05);
 }
+
 h1 {
   color: var(--color-grey-600);
   text-align: left;
@@ -49,7 +51,6 @@ h1 {
 }
 .price-info {
   color: var(--color-grey-400);
-
   margin: 10px 0 30px 0;
   padding: 0 50px;
   text-align: center;
@@ -81,8 +82,25 @@ h1 {
   border: 2px solid rgb(224, 224, 224);
   font-size: var(--size-1);
   font-weight: 600;
+  transition: background-color 0.5s ease-out;
 }
 .button:hover {
   color: white;
   background-color: var(--color-primary-300);
+}
+.sub-details {
+  width: 300px;
+  margin: 30px 50px;
+}
+.sub-feature {
+  display: flex;
+}
+.icon {
+  display: flex;
+  width: 10px;
+}
+.sub-feature-text {
+  color: rgb(58, 58, 58);
+  padding: 2px;
+  margin: 5px;
 }
